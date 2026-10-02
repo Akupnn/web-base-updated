@@ -22,15 +22,14 @@ body,
 
 .flex-container > div:nth-child(1),
 .flex-container > div:nth-child(5) {
-    margin-top: 0;
+    align-self: flex-start;
 }
 
 .flex-container > div:nth-child(2),
 .flex-container > div:nth-child(4) {
-    margin-top: auto;
-    margin-bottom: auto;
+    align-self: center;
 }
 
 .flex-container > div:nth-child(3) {
-    margin-top: auto;
+    align-self: flex-end;
 }
